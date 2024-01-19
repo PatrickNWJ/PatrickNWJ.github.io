@@ -4,12 +4,13 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub, faItchIo } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div className="nav-bar">
-        <Link classame="logo" to="/">
+        <Link className="logo" to="/">
             <img src={LogoS} alt="logo" />
-            <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+            <img className="sub-logo" src={LogoSubtitle} alt="patrick" />
         </Link>
         <nav>
         <NavLink exact="true" activeclassname="active" to="/">
@@ -23,7 +24,30 @@ const Sidebar = () => (
         </NavLink>
         </nav>
 
+<ul>
 
+
+    <li>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-walker-jauregui-318479192/">
+            <FontAwesomeIcon icon ={faLinkedin} color="#4d4d4e" />
+        </a>
+    </li>
+
+    
+
+    
+    <li>
+        <a target="_blank" rel="noreferrer" href="https://github.com/PatrickNWJ">
+            <FontAwesomeIcon icon ={faGithub} color="#4d4d4e" />
+        </a>
+        </li>
+        <li>
+        <a target="_blank" rel="noreferrer" href="https://lettucewalker.itch.io/">
+            <FontAwesomeIcon icon ={faItchIo} color="#4d4d4e" />
+        </a>
+  
+    </li>
+</ul>
 
 
     </div>
