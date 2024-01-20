@@ -39,7 +39,8 @@
     animation-delay: 1s;
 }
 
-.about-page{
+.about-page,
+.contact-page{
 
     .text-zone{
         position:absolute;
@@ -62,7 +63,7 @@
             left: 10px;
 
             &::before{
-                content: '<h1>';
+                
                 font-family: 'La Belle Aurore';
                 font-size: 18px;
                 position: absolute;
@@ -74,7 +75,7 @@
             }
 
             &::after {
-                content: '<h1/>';
+                
                 font-family: 'La Belle Aurore';
                 font-size: 18px;
                 line-height: 18px;
@@ -105,6 +106,16 @@
             &:nth-of-type(3){
                 animation-delay: 1.3s;
             }
+
+
+
+        }
+
+    }
+
+    .text-animate-hover{
+        &:hover {
+            color: #fff;
 
         }
     }
