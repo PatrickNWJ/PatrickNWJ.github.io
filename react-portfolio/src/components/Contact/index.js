@@ -23,16 +23,16 @@ const Contact = () => {
           
             emailjs
             .sendForm(
-                'gmail',
-                'template_od5reec',
+                'service_dj8310l',
+                'template_8a7dh2t',
                 refForm.current,
-                'sZVrsWzfTmj7O3uw6' )
+                'sZVrsWzfTmj7O3uw6' ) 
             .then(
-                () => {
+                (result) => {
                     alert('Message sucesfully sent!')
                     window.location.reload(false)
                 },
-                () => {
+                (error) => {
                     alert('Failed to send the message, please try again')
                 }
             )
@@ -63,11 +63,11 @@ const Contact = () => {
                 <form ref={refForm} onSubmit={sendEmail}>
                     <ul>
                         <li className="half">
-            <input type ="text" name="name" placeholder="Name" required />
+            <input type ="text" name="user_name" placeholder="Name" required />
             
                         </li>
                         <li className="half">
-            <input type ="email" name="email" placeholder="Email" required />
+            <input type ="email" name="user_email" placeholder="Email" required />
             
                         </li>
                         <li>
@@ -77,7 +77,7 @@ const Contact = () => {
                             <textarea placeholder="Message" name="message" required></textarea>
                         </li>
                         <li>
-                            <input type="submit" className="flat-button" value="SEND"/>
+                            <input type="submit" className="flat-button" value="Send"/>
                         </li>
                     </ul>
                 </form>
