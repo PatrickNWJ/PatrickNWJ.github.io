@@ -10,7 +10,7 @@
 }
 
 .tags {
-    color: #ffd700;
+    color: #B6C4B6;
     opacity: 0.6;
     position: absolute;
     bottom:0;
@@ -54,13 +54,13 @@
 
         h1{
             font-size: 53px;
-            font-family: 'Coolvetica';
-            color: #ffd700;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #B6C4B6;
             font-weight: 400;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
-            left: 10px;
+            left: 0px;
 
             &::before{
                 
@@ -90,7 +90,7 @@
         p {
             font-style: 13px;
             color: #fff;
-            font-family: sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: 300;
             min-width: fit-content;
             animation: pulse 1s;

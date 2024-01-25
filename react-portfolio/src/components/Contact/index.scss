@@ -38,10 +38,11 @@
     input[type='email']{
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #B6C4B6;
         height: 50px;
         font-size: 16px;
-        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #294B29;
         padding: 0 20px;
         box-sizing: border-box;
 
@@ -50,23 +51,25 @@
     textarea{
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #B6C4B6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         height: 50px;
         font-size: 16px;
-        color:#fff;
+        color:#294B29;
         padding: 20px;
         min-height:150px;
         box-sizing: border-box;
     }
 
     .flat-button{
-        color: #ffd700;
+        color: #B6C4B6;
         background: 0 0;
         font: 11px;
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
-        border: 1px solid #ffd700;
+        border: 1px solid #B6C4B6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         float: right;
         border-radius: 4px;
     }

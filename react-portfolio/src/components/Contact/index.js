@@ -26,9 +26,7 @@ const Contact = () => {
                 'gmail',
                 'template_od5reec',
                 refForm.current,
-                'sZVrsWzfTmj7O3uw6'
-
-            )
+                'sZVrsWzfTmj7O3uw6' )
             .then(
                 () => {
                     alert('Message sucesfully sent!')

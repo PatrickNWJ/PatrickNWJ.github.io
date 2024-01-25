@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './index.scss';
-
+import LogoBack from '../../assets/images/logo-back.png'
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders'
 
@@ -23,6 +23,9 @@ useEffect(() => {
 return (
 <>
     <div className="container home-page">
+    <div className="logo">
+    <img src={LogoBack} alt="logo" />
+    </div>
 <div className="text-zone">
 
 <h1> 

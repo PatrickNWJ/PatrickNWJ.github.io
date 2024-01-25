@@ -1,5 +1,22 @@
 .home-page {
 
+
+    .logo {
+        display: block;
+        padding: 8px ;
+        left: 10%;
+    
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        transform: translate(60%, 10%);
+      
+
+ 
+ } 
+    }
     .text-zone{
         position: absolute;
         left: 10%;
@@ -17,7 +34,7 @@
         color: #fff;
         font-size: 53px; 
         margin: 0;
-        font-family: 'Coolvetica';
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight:400;
 
         &::before {
@@ -25,7 +42,7 @@
 
             font-family: 'La Belle Aurore';
 
-            color: #ffd700;
+            color: #B6C4B6;
 
             font-size: 18px;
             position: absolute;
@@ -38,7 +55,7 @@
         &::after{
             
             font-family: 'La Belle Aurore';
-            color: #ffd700;
+            color: #B6C4B6;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
@@ -61,21 +78,22 @@
     }
 
     .flat-button{
-        color: #ffd700;
+        color: #B6C4B6;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #ffd700;
+        border: 1px solid #B6C4B6;
         margin-top: 25px;
         float: left;    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover{
-            background: #ffd700;
+            background: #B6C4B6;
             color: #333;
         }
     }

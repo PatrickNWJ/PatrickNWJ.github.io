@@ -1,6 +1,6 @@
 .nav-bar {
   
-    background: #181818;
+    background: #163020;
     width: 60px;
     height: 100%;
     position: absolute;
@@ -19,11 +19,7 @@
         height: auto;
     
 
-   &.sub-logo {
-    width: 60px;
-    
-   
-   }
+ 
  } 
     }
 
@@ -50,7 +46,7 @@ nav {
         }
 
         &:hover{
-            color: #ffd700; 
+            color: #B6C4B6; 
 
             svg{
                 opacity: 0;
@@ -65,8 +61,9 @@ nav {
 
         &:after{
             content: '';
-            font-size: 9px;
+            font-size: 11px;
             letter-spacing: 2px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
             position: absolute;
             bottom: 0;
             display: block;
@@ -99,7 +96,7 @@ nav {
 
             a.active {
                 svg {
-                    color: #ffd700;
+                    color: #B6C4B6;
                 }
             }
 
@@ -126,7 +123,7 @@ nav {
     }
 
     &:hover svg {
-        color: #ffd700;
+        color: #B6C4B6;
     }
  }
 }
