@@ -1,23 +1,19 @@
+
+
 .home-page {
-
-
     .logo {
         display: block;
         padding: 8px ;
         left: 10%;
-    
-    img {
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-        height: auto;
-        transform: translate(60%, 10%);
-      
-
- 
- } 
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            transform: translate(60%, 10%);
+        }
     }
-    .text-zone{
+    .text-zone {
         position: absolute;
         left: 10%;
         top: 50%;
@@ -26,34 +22,22 @@
         max-height: 90%;
         z-index: 1;
     }
-
-
-
-    h1{
-        
+    h1 {
         color: #fff;
         font-size: 53px; 
         margin: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight:400;
-
+        font-weight: 400;
         &::before {
-            
-
             font-family: 'La Belle Aurore';
-
             color: #B6C4B6;
-
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
             left: 15px;
             opacity: 0.6;
-
         }
-
-        &::after{
-            
+        &::after {
             font-family: 'La Belle Aurore';
             color: #B6C4B6;
             font-size: 18px;
@@ -62,12 +46,9 @@
             margin-left: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
-
         }
-
     }
-
-    h2{
+    h2 {
         color: #8d8d8d;
         margin-top: 20px;
         font-weight: 400;
@@ -76,8 +57,7 @@
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
     }
-
-    .flat-button{
+    .flat-button {
         color: #B6C4B6;
         font-size: 13px;
         font-weight: 400;
@@ -91,10 +71,67 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
-
-        &:hover{
+        &:hover {
             background: #B6C4B6;
             color: #333;
         }
     }
+
+   
 }
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page .logo{
+        img{
+        transform: translate(10%, -10%);
+    }
+}
+    .home-page h1{
+        font-size: 42px;
+    }
+    .home-page h2{
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    .home-page h1:before,
+    .home-page h1:after {
+      display: none;
+    }
+  
+    .home-page .text-zone {
+      position: initial;
+      width: 100%;
+      transform: translateY(-50%);
+      padding: 10px;
+      box-sizing: border-box;
+      
+    }
+  
+    .home-page .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 124px;
+    }
+  
+    .logo-container {
+      position: relative;
+      width: 100px;
+      height: auto;
+      top: 50px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+    }
+  
+    .logo-container svg {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+    }
+  }

@@ -71,7 +71,7 @@
     }
 
     33%{
-        transform: rotateY(-90deg) rotateZ(90deg);
+        transform: rotateY(-90deg) rotateX(90deg);
     }
 
     50%{
@@ -79,7 +79,7 @@
     }
 
     66%{
-        transform: rotateY(-270deg) rotateZ(90deg);
+        transform: rotateY(-270deg) rotateX(90deg);
     }
 
     83% {
