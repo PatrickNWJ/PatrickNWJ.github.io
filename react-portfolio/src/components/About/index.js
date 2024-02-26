@@ -32,8 +32,11 @@ const About = () => {
                 <p>
                 I'm a recent Computer Science graduate from Arizona State University,
                 looking for a role as a Software Engineer, Web Developer, or Game Developer. 
-
+               
+         
+             
                 </p>
+                
                 <p>
                 I am always looking to challenge myself and learn new things everyday. There is no 
                 topic or hurdle that I won't try to overcome or master. 

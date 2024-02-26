@@ -7,10 +7,17 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+    
+ 
+
+   
 
     .logo {
         display: block;
-        padding: 8px 0;
+        padding: 10px 0;
+
+     
+        
     
     img {
         display: block;
@@ -18,6 +25,16 @@
         max-width: 100%;
         height: auto;
     
+        &:hover {
+            // Change the background image of .logo on hover
+            
+            background-image: url("C:\Users\patri\OneDrive\Documents\Midas-Proj-LaptopEdition\PatrickNWJ.github.io\react-portfolio\src\assets\images\logo-p.png");
+
+            img {
+                visibility: visible; // Show the img element on hover
+            }
+        }
+        
 
  
  } 
@@ -90,6 +107,7 @@ nav {
     
     a.contact-link{
         &:after{
+            font-size: 9px;
             content: 'CONTACT';
         }
             }

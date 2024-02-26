@@ -1,6 +1,7 @@
 import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import Lettuce from '../../assets/images/lettuce.png'
 import { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
@@ -42,8 +43,11 @@ const Contact = () => {
   
     return (
         <>
-        
+     
         <div className='container contact-page'>
+        <div className="logo">
+        <img src={Lettuce} alt="logo" />
+</div>
         <div className="text-zone">
             <h1>
                 
